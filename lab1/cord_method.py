@@ -23,7 +23,7 @@ def cord_method(a, b, accuracy):
 
         cord_method_accuracy = abs(previous_x - x)
 
-    return x
+    return x, iteration_count
 
 a = float(input("Введите левую границу: "))
 b = float(input("Введите правую границу: "))
