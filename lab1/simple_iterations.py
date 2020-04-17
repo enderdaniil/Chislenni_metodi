@@ -7,13 +7,15 @@ def func(x):
 def simple_iterations(a, b, accuracy):
     x = (a + b) / 2
     simple_iterations_accuracy = abs(b - a)
+    iteration_count = 0
 
     while simple_iterations_accuracy >= accuracy:
         previous_result = x
+        iteration_count += 1
         x = func(x)
         simple_iterations_accuracy = x - previous_result
 
-    return x
+    return x, iteration_count
 
 a = float(input("Введите левую границу: "))
 b = float(input("Введите правую границу: "))
