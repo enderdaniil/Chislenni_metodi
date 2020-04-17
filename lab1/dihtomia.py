@@ -30,11 +30,11 @@ def dihtomia(a, b, accuracy):
 
     return result, iteration_count
 #
-a = float(input("Введите левую границу"))
-b = float(input("Введите правую границу"))
-accuracy = float(input("Введите точность"))
+a = float(input("Введите левую границу: "))
+b = float(input("Введите правую границу: "))
+accuracy = float(input("Введите точность: "))
 
 x, it_c = dihtomia(a, b, accuracy)
 
 print ("Результат: " + str(x))
-print ("Он был получен за " + it_c + " итераций")
+print ("Он был получен за " + str(it_c) + " итераций")
