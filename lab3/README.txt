@@ -1,0 +1,1 @@
+Screenshots in https://github.com/enderdaniil/Chislenni_metodi/tree/master/lab3/lab3
